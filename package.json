@@ -1,0 +1,35 @@
+{
+  "name": "intellimesh",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "IntelliMesh is a TypeScript library for locally embedded an agent in a webservice. Networks of embedded agents form the IntelliMesh network - an agent based query network. ",
+  "main": "dist/server/server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishshankla89/IntelliMesh.git"
+  },
+  "keywords": [
+    "AI",
+    "Agent",
+    "Network"
+  ],
+  "author": "Manish Shankla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishshankla89/IntelliMesh/issues"
+  },
+  "homepage": "https://github.com/manishshankla89/IntelliMesh#readme",
+  "dependencies": {
+    "@mlc-ai/web-llm": "^0.2.51",
+    "base32-encode": "^2.0.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.16.2"
+  }
+}
